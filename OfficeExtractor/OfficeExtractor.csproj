@@ -10,13 +10,13 @@
     <PackageReleaseNotes>- Updated nuget packages
 - Added support for ole 10 native type Paintbrush-Bild</PackageReleaseNotes>
     <PackageIcon>extract-icon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/Sicos1977/OfficeExtractor</RepositoryUrl>
+    <RepositoryUrl>https://github.com/trentapple/OfficeExtractor</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageProjectUrl>https://github.com/Sicos1977/OfficeExtractor</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/trentapple/OfficeExtractor</PackageProjectUrl>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>OfficeExtractor.snk</AssemblyOriginatorKeyFile>
-    <AssemblyVersion>1.21.0.0</AssemblyVersion>
-    <FileVersion>1.21.0.0</FileVersion>
+    <AssemblyVersion>2.0.0</AssemblyVersion>
+    <FileVersion>2.0.0</FileVersion>
     <Description>Extracts embedded OLE objects from Word, Excel, PowerPoint and Open Office files without needing the original programs.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>

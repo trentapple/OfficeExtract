@@ -9,13 +9,16 @@ WORKDIR /source
 ###COPY */*.csproj .
 COPY OfficeExtractor ./OfficeExtractor
 COPY OfficeExtractorTest ./OfficeExtractorTest
-COPY OfficeViewer ./OfficeViewer
-COPY *.sln .
+#COPY OfficeViewer ./OfficeViewer
+#COPY *.sln .
+COPY OfficeExtractor.sln .
 RUN dotnet restore -a $TARGETARCH *.sln
 
 # Copy source code and publish app
 COPY . .
-RUN dotnet publish -a $TARGETARCH --no-restore -o /app
+#RUN dotnet publish -a $TARGETARCH --no-restore -o /app
+#RUN dotnet publish -a $TARGETARCH --no-restore -o /app OfficeExtractor/OfficeExtractor.csproj
+RUN dotnet publish -a $TARGETARCH --no-restore -o /app OfficeExtractorTest/OfficeExtractorTest.csproj
 
 
 # Runtime stage
@@ -25,4 +28,3 @@ WORKDIR /app
 COPY --from=build /app .
 USER $APP_UID
 ENTRYPOINT ["./dotnetapp"]
-    
