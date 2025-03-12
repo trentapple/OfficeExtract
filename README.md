@@ -1,4 +1,4 @@
-OfficeExtractor
+OfficeExtract
 =================
 
 Extracts embedded OLE objects from Word, Excel, PowerPoint and Open Office files without needing the original programs.
