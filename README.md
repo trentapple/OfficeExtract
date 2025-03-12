@@ -1,7 +1,9 @@
 OfficeExtract
 =================
 
-Extracts embedded OLE objects from Word, Excel, PowerPoint and Open Office files without needing the original programs.
+Extracts embedded OLE objects from Word, Excel, PowerPoint and Open Office files without requiring the original programs.
+
+To build docker image -- run `docker build -t office-app .`
 
 Based on https://github.com/Sicos1977/OfficeExtractor
 
