@@ -26,7 +26,7 @@ OfficeExtractor is Copyright (C)2013-2024 Kees van Spelde and is licensed under 
     THE SOFTWARE.
 
 
-Installing via NuGet
+Installing via NuGet (Original)
 ====================
 
 The easiest way to install OfficeExtractor is via NuGet.
@@ -38,9 +38,3 @@ In Visual Studio's Package Manager Console, simply enter the following command:
 Core Team
 =========
     Sicos1977 (Kees van Spelde)
-
-Support
-=======
-If you like my work then please consider a donation as a thank you.
-
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=NS92EXB2RDPYA" target="_blank"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" /></a>
