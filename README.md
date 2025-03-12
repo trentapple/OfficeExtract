@@ -3,6 +3,8 @@ OfficeExtract
 
 Extracts embedded OLE objects from Word, Excel, PowerPoint and Open Office files without needing the original programs.
 
+Based on https://github.com/Sicos1977/OfficeExtractor
+
 ## License Information
 
 OfficeExtractor is Copyright (C)2013-2024 Kees van Spelde and is licensed under the MIT license:
